@@ -8,11 +8,13 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby`,
     siteUrl: `https://www.gatsbyjs.org`,
-    description: `Blazing fast modern site generator for React`,
+    description: `Blazing fast modern site generator for React`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -21,22 +23,22 @@ module.exports = {
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
-        display: `standalone`,
-      },
+        display: `standalone`
+      }
     },
     {
       resolve: `gatsby-plugin-nprogress`,
       options: {
         color: `tomato`,
-        showSpinner: false,
-      },
+        showSpinner: false
+      }
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
-        trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
-      },
+        trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID"
+      }
     },
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
@@ -44,24 +46,24 @@ module.exports = {
         fonts: [
           {
             family: `Roboto`,
-            variants: [`300`, `500`, `700`],
-          },
-        ],
-      },
+            variants: [`300`, `500`, `700`]
+          }
+        ]
+      }
     },
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {
-        displayName: process.env.NODE_ENV !== "production",
-      },
+        displayName: process.env.NODE_ENV !== "production"
+      }
     },
     {
       resolve: `gatsby-plugin-page-creator`,
       options: {
         path: `${__dirname}/src/pages`,
-        ignore: [`**/styles.js`],
-      },
+        ignore: [`**/styles.js`]
+      }
     },
-    `gatsby-plugin-offline`,
-  ],
-}
+    `gatsby-plugin-offline`
+  ]
+};
