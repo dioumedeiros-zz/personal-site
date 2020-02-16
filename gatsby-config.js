@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby`,
+    title: `Dionatan Medeiros`,
     siteUrl: `https://www.gatsbyjs.org`,
     description: `Blazing fast modern site generator for React`
   },
