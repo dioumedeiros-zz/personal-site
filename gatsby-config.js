@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: `Dionatan Medeiros`,
     siteUrl: `https://www.gatsbyjs.org`,
-    description: `Blazing fast modern site generator for React`
+    description: `Desenvolvedor apaixonado por javascript e todo seu ecosistema.`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
