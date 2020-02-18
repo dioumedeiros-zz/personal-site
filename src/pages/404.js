@@ -1,7 +1,12 @@
-import React from "react"
+import React from "react";
 
-// import { Container } from './styles';
+import Layout from "../components/Layout";
 
-export default function pages() {
-  return <h1>Page not found</h1>
+export default function page() {
+  return (
+    <Layout>
+      <strong>Página não encontrada</strong>
+      <p id="error">:(</p>
+    </Layout>
+  );
 }
