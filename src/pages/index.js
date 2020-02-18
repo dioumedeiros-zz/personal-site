@@ -1,3 +1,12 @@
-import React from "react"
+import React from "react";
 
-export default () => <div>Hello world!</div>
+import Layout from "../components/Layout";
+
+export default function pages() {
+  return (
+    <Layout>
+      <strong>Dionatan Medeiros</strong>
+      <p>Desenvolvedor apaixonado por javascript</p>
+    </Layout>
+  );
+}
