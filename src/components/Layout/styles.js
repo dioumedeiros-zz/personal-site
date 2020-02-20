@@ -10,16 +10,35 @@ export const Container = styled.div`
 
   main {
     text-align: center;
+
+    img {
+      border: 4px solid #4ef579;
+      border-radius: 50%;
+      margin: 50px 0;
+    }
+
+    strong {
+      color: #4ef579;
+      font-size: 32px;
+    }
+
+    p {
+      font-size: 24px;
+      color: #999;
+    }
   }
 
-  strong {
-    color: #4ef579;
-    font-size: 32px;
-  }
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
 
-  p {
-    font-size: 24px;
-    color: #999;
+    svg {
+      &:hover {
+        color: #9e9e9e !important;
+      }
+    }
   }
 
   #error {
