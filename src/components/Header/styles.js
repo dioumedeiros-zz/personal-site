@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background: #171921;
+  background: #1e2125;
   padding: 0 30px;
-  border-bottom: 1px solid #343847;
+  border-bottom: 1px solid #282a36;
 `;
 
 export const Content = styled.div`
