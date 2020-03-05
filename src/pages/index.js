@@ -18,17 +18,17 @@ export default function pages({ data }) {
       </main>
       <footer>
         <a href="https://github.com/dioumedeiros" target="_blank">
-          <FaGithub size={20} color="#fff" />
+          <FaGithub size={30} color="#fff" />
         </a>
         <a href="https://www.linkedin.com/in/dionatanmedeiros/" target="_blank">
-          <FaLinkedin size={20} color="#fff" />
+          <FaLinkedin size={30} color="#fff" />
         </a>
         <a
           href="https://twitter.com/DiouMedeiros"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaTwitter size={20} color="#fff" />
+          <FaTwitter size={30} color="#fff" />
         </a>
       </footer>
     </Layout>
